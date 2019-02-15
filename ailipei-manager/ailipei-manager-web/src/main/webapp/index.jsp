@@ -5,8 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>A爱理赔宝</title>
+<script src="https://cdn.bootcss.com/react/15.4.2/react.min.js"></script>
+<script src="https://cdn.bootcss.com/react/15.4.2/react-dom.min.js"></script>
+<script src="https://cdn.bootcss.com/babel-standalone/6.22.1/babel.min.js"></script>
 </head>
 <body>
     <h1>爱理赔宝</h1>
+  <div id="example"></div>
+  <script type="text/babel" src="index.jsx"></script>
 </body>
 </html>

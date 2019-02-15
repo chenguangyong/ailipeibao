@@ -16,7 +16,13 @@
   	<module>ailipei-manager-service</module>
   	<module>ailipei-manager-web</module>
   </modules>
-  
+  <dependencies>
+		<dependency>
+			<groupId>com.ailipei</groupId>
+			<artifactId>ailipei-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+  </dependencies>
    <!-- 配置tomcat插件 -->
 	<build>
 		<plugins>
@@ -26,7 +32,7 @@
 				<configuration>
 					<!-- <port>8080</port>
 					<path>/</path> -->
-	                <url>http://127.0.0.1:8080/manager/text</url>
+	                <url>http://39.107.96.163:8080/manager/text</url>
 	                <username>admin</username>
 	                <password>123456</password>
 	                <update>true</update>
